@@ -375,6 +375,22 @@ for car in cars:
    if cars=="bugatti":
       continue
    print(car)
+   # python pass statement
+def add():
+   pass
+
+def subtract():
+   pass
+add()
+subtract()
+print("I am the king of python")
+# it can also ne used in if statements
+if 5==5:
+   pass
+else:
+   pass
+print("1 am the king in python programming")
+
 
 
 
