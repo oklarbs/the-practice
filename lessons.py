@@ -390,6 +390,35 @@ if 5==5:
 else:
    pass
 print("1 am the king in python programming")
+# python advanced
+#python classes and objects
+class className:
+   departmentName="computer engineering"
+   facultyName="Faculty of electrical and computer engineering"
+   college="college of engineering"
+class student:
+   def  __init__(self, id_number,name,age):     
+    self.id_number = id_number
+    self.name=name
+    self.age=age
+   def student_bark(self):
+      print("hello" + self.name + "bark how are you")
+
+student1=student(5243,"OFFEI",17) 
+student2=student(3221,"Grace",18)
+student1.student_bark()
+
+print("student 1 ID:",student1.id_number)
+print("student 1 name:",student1.name)
+print("student 1 age:",student1.age)
+
+print("----------------------------------------")
+
+print("student 2 ID:",student2.id_number)
+print("student 2 name:",student2.name)
+print("student 2 age:",student2.age)
+
+
 
 
 
